@@ -4,10 +4,10 @@ Este projeto tem como objetivo usar o Notebooklm como base de estudos de testes
 automatizados utilizando Cypress.
 
 🔹Proposto:
-*Conteúdo
-*Engenharia de prompt
-*Organização de conteúdo
-*Pensamento crítico com auxílio da IA
+* Conteúdo
+* Engenharia de prompt
+* Organização de conteúdo
+* Pensamento crítico com auxílio da IA
 
 🔹Fontes:
 * Documentação oficial do Cypress (tradução PT-BR)
@@ -32,7 +32,7 @@ automatizados utilizando Cypress.
 
 🔹Engenharia de Prompts e Aprendizados
 
--Prompt 1
+* Prompt 1
 Pergunta: O que são testes automatizados?
 Resumo da resposta:
 Testes automatizados utilizam scripts para simular ações do usuário e validar o funcionamento da aplicação. Seguem três etapas: configuração, ação e validação.
@@ -43,7 +43,7 @@ Resposta inicial muito ampla.
 Ajuste:
 Refinei pedindo exemplos práticos com Cypress.
 
--Prompt 2
+* Prompt 2
 Pergunta: Como instalar e configurar o Cypress do zero?
 Resumo da resposta:
 * Instalar Node.js
@@ -59,7 +59,7 @@ Ajuste:
 Pedi versão simplificada para iniciantes.
 
 
--Prompt 3
+* Prompt 3
 Pergunta: O Cypress é a melhor ferramenta para testes automatizados?
 Resumo da resposta:
 Depende do projeto, mas se destaca por:
@@ -74,7 +74,7 @@ Ajuste:
 Solicitei comparação com outras ferramentas.
 
 
--Prompt 4
+* Prompt 4
 Pergunta: Como usar cy.intercept?
 Resumo da resposta:
 Permite simular respostas de API (mock), testar erros e controlar dados sem backend real.
