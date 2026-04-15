@@ -1,14 +1,13 @@
-# MiniGuia-Notebooklm-QA
+# MiniGuia-NotebookLM-QA
 # Conteúdo e Objetivo
-Este projeto tem como objetivo usar o Notebooklm como base de estudos de testes 
+Este projeto tem como objetivo usar o NotebookLM como base de estudos de testes 
 automatizados utilizando Cypress.
-
 * Conteúdo
 * Engenharia de prompt
 * Organização de conteúdo
 * Pensamento crítico com auxílio da IA
 
-# Fontes:
+# Curadoria de Fontes
 * Documentação oficial do Cypress (tradução PT-BR)
 * Introduction to Cypress App
 * Cypress API: Table of Contents
@@ -20,7 +19,6 @@ automatizados utilizando Cypress.
 * Vídeos sobre instalação e autenticação SSO
 
 # Engenharia de prompt e aprendizagem
-
 * Cypress API: Table of Contents
 * Best Practices - Cypress Documentation
 * Continuous Integration with Cypress
@@ -74,6 +72,39 @@ Entender aplicação prática.
 # Ajuste:
 Pedi exemplos reais.
 
+# Miniguia de Estudo
+
+# Resumo Geral
+O Cypress é uma ferramenta de testes automatizados focada em aplicações web.
+
+# Principais características:
+* Execução no navegador
+* Espera automática (menos falhas)
+* Fácil depuração
+* Suporte a testes E2E e de componentes
+* Interceptação de requisições HTTP
+
+# Tipos de testes:
+* E2E (End-to-End)
+* Componentes
+* API
+* Acessibilidade
+
+# Boas práticas:
+* Usar atributos para seletores
+* Evitar wait fixo
+* Criar comandos reutilizáveis
+* Isolar testes
+
+# Glossário
+* Teste Automatizado: Script que valida o funcionamento do sistema
+* E2E: Teste de ponta a ponta
+* Mock: Simulação de dados de API
+* cy.intercept:Comando para interceptar requisições
+* Selector:Forma de encontrar elementos na tela
+* Flaky Test:Teste instável
+* CI/CD:Integração e entrega contínua
+
 # Exemplos Práticos
 ✔ Teste simples
 
@@ -96,6 +127,12 @@ cy.intercept('GET', '/api/dados', {
 
 cy.wait('@erro')
 
+# Prompts reutilizavéis
+* Explique testes automatizados com Cypress de forma simples
+* Quais são as melhores práticas no uso do Cypress?
+* Compare o Cypress com outras ferramentas de teste como Selenium e Playwright
+* Como aplicar testes automatizados com Cypress em um projeto real?
+  
 # Conclusão
 O uso do NotebookLM facilitou a organização do conteúdo e tornou o aprendizado mais fácil de compreender.
 Além de aprender conteúdos sobre Cypress, foi possível desenvolver habilidades importantes como:
